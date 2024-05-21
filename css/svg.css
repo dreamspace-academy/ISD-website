@@ -247,7 +247,7 @@ body {
 
 .path
 {
-	stroke="#000000";
+	stroke:"#000000";
 	stroke-dasharray: 20;
 }
 .polygon-each-img-wrap:hover
