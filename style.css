@@ -8703,6 +8703,12 @@ th.product-name {
   display: inline-block;
   float: left;
 }
+.about-intro .about-img {
+  width: 50%;
+  padding-right: 25px;
+  display: inline-block;
+  float: left;
+}
 .about-intro .about-intro-text {
   width: 50%;
   padding-left: 25px;
@@ -10172,6 +10178,13 @@ ul.list-link-footer li:hover:before {
   }
   .about-intro .about-intro-img img {
     width: 100%;
+  }
+  .about-intro .about-img {
+    width: 50%;
+    padding: 0 15px;
+  }
+  .about-intro .about-img img {
+    width: 50%;
   }
   .about-intro .about-intro-text {
     width: 100%;
