@@ -4782,6 +4782,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   text-align: center;
+  padding-top: 7%;
 }
 /* Block */
 .block-img-left,
@@ -9138,7 +9139,7 @@ ul.social-dark li a:hover {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 35px;
+  padding: 35px;
 }
 .accordion-process .panel {
   -webkit-box-shadow: none;
@@ -9146,7 +9147,7 @@ ul.social-dark li a:hover {
   background: transparent;
 }
 .accordion-process .panel-group {
-  max-width: 530px;
+  /* max-width: 530px; */
 }
 .accordion-process .panel-default {
   border: 0;
