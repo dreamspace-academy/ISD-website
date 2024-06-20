@@ -274,6 +274,19 @@ ul.social li.active a {
   background: #333;
   color: #2ccb7a;
 }
+
+/* Custom CSS for changing menu icon size */
+.mm-toggle span.icon_menu {
+  font-size: 28px; /* Adjust the size as needed */
+}
+
+/* Optional: Adjusting the size for different screen sizes */
+@media (max-width: 767px) {
+  .mm-toggle span.icon_menu {
+    font-size: 34px; /* Larger size for smaller screens */
+  }
+}
+
 div.fancy-select {
   position: relative;
   color: #46565D;
