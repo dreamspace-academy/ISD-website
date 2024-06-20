@@ -7312,7 +7312,7 @@ ol.children {
   width: -webkit-calc(50% - 35px);
   width: calc(50% - 35px);
   padding-left: 0;
-  padding-top: 6.5%;
+  /* padding-top: 6.5%; */
 }
 .block-img-full-width .block-img-left .text-box h4 {
   margin-bottom: 13px;
