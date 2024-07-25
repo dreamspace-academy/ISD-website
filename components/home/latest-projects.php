@@ -128,7 +128,7 @@
     </div> <!-- End  -->
     <div class="overlay-arc">
         <div class="layer-1">
-            <a href="portfolioGrid_1.html" class="ot-btn btn-dark-color text-cap">View all project</a>
+            <a href="projects.php" class="ot-btn btn-dark-color text-cap">View all project</a>
         </div>
     </div>
 </section>

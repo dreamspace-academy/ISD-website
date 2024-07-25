@@ -1,6 +1,6 @@
 <footer class="footer-v1">
     <div class="footer-left">
-        <a href="index.html">
+        <a href="index.php">
             <img src="./images/Header/dark-logo.png" class="img-responsive" alt="Image">
         </a>
     </div>
@@ -8,16 +8,16 @@
     <nav>
         <ul>
             <li>
-                <a class="text-cap" href="index.html">Home</a>
+                <a class="text-cap" href="index.php">Home</a>
             </li>
             <li>
-                <a class="text-cap" href="portfolioGrid_1.html">Project</a>
+                <a class="text-cap" href="projects.php">Project</a>
             </li>
             <li>
-                <a class="text-cap" href="servicesList.html">Service</a>
+                <a class="text-cap" href="services.php">Service</a>
             </li>
             <li>
-                <a class="text-cap" href="about.html">About</a>
+                <a class="text-cap" href="about.php">About</a>
             </li>
 
         </ul>
@@ -38,7 +38,7 @@
 <!-- End Footer -->
 
 <section class="copyright">
-    <p>Copyright © 2024 Designed by <a href="https://dreamspace.academy/pages/1-0-index.php">DreamSpace
+    <p>Copyright © 2024 Designed by <a href="https://dreamspace.academy">DreamSpace
             Academy</a>. All rights reserved.</p>
 </section>
 </div>
@@ -92,7 +92,7 @@
 
 <!-- PreLoad
 	    ================================================== -->
-<script type="text/javascript" src="js/plugins/royal_preloader.min.js"></script>
+<!-- <script type="text/javascript" src="js/plugins/royal_preloader.min.js"></script>
 <script type="text/javascript">
 (function($) {
     "use strict";
@@ -105,7 +105,7 @@
         background: ['#FFFFFF']
     });
 })(jQuery);
-</script>
+</script> -->
 
 <!-- Global Js
 	    ================================================== -->

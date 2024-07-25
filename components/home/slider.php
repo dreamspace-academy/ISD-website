@@ -25,14 +25,14 @@
                     <div class="tp-caption btn-1" data-x="center" data-hoffset="-85" data-y="center" data-voffset="100"
                         data-transform_in="y:100px;opacity:0;s:800;e:easeInOutCubic;"
                         data-transform_out="y:200px;opacity:0;s:300;" data-start="1600">
-                        <a href="portfolioGrid_1.html" class="ot-btn btn-main-color text-cap ">Our Projects</a>
+                        <a href="projects.php" class="ot-btn btn-main-color text-cap ">Our Projects</a>
 
                     </div>
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption btn-2" data-x="center" data-hoffset="85" data-y="center" data-voffset="100"
                         data-transform_in="y:100px;opacity:0;s:800;e:easeInOutCubic;"
                         data-transform_out="y:200px;opacity:0;s:300;" data-start="1600">
-                        <a href="contact.html" class="ot-btn btn-sub-color text-cap  ">Get a Quote</a>
+                        <a href="contact.php" class="ot-btn btn-sub-color text-cap  ">Get a Quote</a>
                     </div>
 
                 </li>
@@ -58,14 +58,14 @@
                     <div class="tp-caption btn-1" data-x="center" data-hoffset="-85" data-y="center" data-voffset="100"
                         data-transform_in="y:100px;opacity:0;s:800;e:easeInOutCubic;"
                         data-transform_out="y:200px;opacity:0;s:300;" data-start="1600">
-                        <a href="portfolioGrid_1.html" class="ot-btn btn-main-color text-cap ">Our Projects</a>
+                        <a href="projects.php" class="ot-btn btn-main-color text-cap ">Our Projects</a>
 
                     </div>
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption btn-2" data-x="center" data-hoffset="85" data-y="center" data-voffset="100"
                         data-transform_in="y:100px;opacity:0;s:800;e:easeInOutCubic;"
                         data-transform_out="y:200px;opacity:0;s:300;" data-start="1600">
-                        <a href="contact.html" class="ot-btn btn-sub-color text-cap  ">Get a Quote</a>
+                        <a href="contact.php" class="ot-btn btn-sub-color text-cap  ">Get a Quote</a>
                     </div>
 
                 </li>
@@ -91,14 +91,14 @@
                     <div class="tp-caption btn-1" data-x="center" data-hoffset="-85" data-y="center" data-voffset="100"
                         data-transform_in="y:100px;opacity:0;s:800;e:easeInOutCubic;"
                         data-transform_out="y:200px;opacity:0;s:300;" data-start="1600">
-                        <a href="portfolioGrid_1.html" class="ot-btn btn-main-color text-cap ">Our Projects</a>
+                        <a href="projects.php" class="ot-btn btn-main-color text-cap ">Our Projects</a>
 
                     </div>
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption btn-2" data-x="center" data-hoffset="85" data-y="center" data-voffset="100"
                         data-transform_in="y:100px;opacity:0;s:800;e:easeInOutCubic;"
                         data-transform_out="y:200px;opacity:0;s:300;" data-start="1600">
-                        <a href="contact.html" class="ot-btn btn-sub-color text-cap  ">Get a Quote</a>
+                        <a href="contact.php" class="ot-btn btn-sub-color text-cap  ">Get a Quote</a>
                     </div>
                 </li>
             </ul>

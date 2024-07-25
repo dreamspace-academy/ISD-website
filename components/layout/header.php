@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -35,7 +35,7 @@
     <meta property="twitter:image" content="https://idealstaginganddesign.com/images/Slider/3.jpg">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://idealstaginganddesign.com/index.html">
+    <link rel="canonical" href="https://idealstaginganddesign.com/index.php">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">

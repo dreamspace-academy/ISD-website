@@ -10,31 +10,31 @@
 
             <ul>
                 <li>
-                    <a href="index.html"><i class="icon-home"></i> Home</a>
+                    <a href="index.php"><i class="icon-home"></i> Home</a>
                 </li>
 
-                <li><a href="portfolioGrid_1.html"><span>Projects</span></a>
+                <li><a href="projects.php"><span>Projects</span></a>
 
                     <ul class="navi-level-2">
-                        <li><a href="project_detail_1.html">Condo</a></li>
-                        <li><a href="project_detail_2.html">Townhouse</a></li>
-                        <li><a href="project_detail_3.html">Bungalow</a></li>
-                        <li><a href="project_detail_4.html">Detached</a></li>
-                        <li><a href="project_detail_5.html">Semi Detached</a></li>
+                        <li><a href="condo.php">Condo</a></li>
+                        <li><a href="townhouse.php">Townhouse</a></li>
+                        <li><a href="bungalow.php">Bungalow</a></li>
+                        <li><a href="detached.php">Detached</a></li>
+                        <li><a href="semi-detached.php">Semi Detached</a></li>
                     </ul>
 
                 </li>
 
-                <li><a href="servicesList.html"><span>Services</span></a>
+                <li><a href="services.php"><span>Services</span></a>
                     <ul class="navi-level-2">
-                        <li><a href="services_detail_1.html">Layout Design</a></li>
-                        <li><a href="services_detail_2.html">Decluttering</a></li>
-                        <li><a href="services_detail_3.html">Hospital Design</a></li>
+                        <li><a href="layout-design.php">Layout Design</a></li>
+                        <li><a href="decluttering.php">Decluttering</a></li>
+                        <li><a href="consultation-and-planning.php">Consultation & Planning</a></li>
                     </ul>
                 </li>
-                <li><a href="about.html"><span>About </span></a></li>
+                <li><a href="about.php"><span>About </span></a></li>
 
-                <li><a href="contact.html"><span>Contact Us</span></a>
+                <li><a href="contact.php"><span>Contact Us</span></a>
 
                 </li>
             </ul>
@@ -82,33 +82,33 @@
             </div>
             <div class="left-header">
                 <ul class="navi-level-1">
-                    <li><a href="index.html" class="logo"><img src="./images/Header/isd-logo.png" class="img-responsive"
+                    <li><a href="index.php" class="logo"><img src="./images/Header/isd-logo.png" class="img-responsive"
                                 alt="Image"></a></li>
                 </ul>
             </div><!-- End Left Header -->
             <nav>
                 <ul class="navi-level-1 hover-style-2 main-navi">
-                    <li class="has-sub"><a href="index.html"><span>Home</span></a>
+                    <li class="has-sub"><a href="index.php"><span>Home</span></a>
 
                     </li>
-                    <li class="has-sub"><a href="portfolioGrid_1.html"><span>Projects</span></a>
+                    <li class="has-sub"><a href="projects.php"><span>Projects</span></a>
                         <ul class="navi-level-2">
-                            <li><a href="project_detail_1.html">Condo</a></li>
-                            <li><a href="project_detail_2.html">Townhouse</a></li>
-                            <li><a href="project_detail_3.html">Bungalow</a></li>
-                            <li><a href="project_detail_4.html">Detached</a></li>
-                            <li><a href="project_detail_5.html">Semi Detached</a></li>
+                            <li><a href="condo.php">Condo</a></li>
+                            <li><a href="townhouse.php">Townhouse</a></li>
+                            <li><a href="bungalow.php">Bungalow</a></li>
+                            <li><a href="detached.php">Detached</a></li>
+                            <li><a href="semi-detached.php">Semi Detached</a></li>
                         </ul>
                     </li>
                     <li class="has-sub"><a href=""><span>Services</span></a>
                         <ul class="navi-level-2">
-                            <li><a href="services_detail_1.html">Layout Design</a></li>
-                            <li><a href="services_detail_2.html">Decluttering</a></li>
-                            <li><a href="services_detail_3.html">Hospital Design</a></li>
+                            <li><a href="layout-design.php">Layout Design</a></li>
+                            <li><a href="decluttering.php">Decluttering</a></li>
+                            <li><a href="consultation-and-planning.php">Consultation & Planning</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html"><span>About </span></a></li>
-                    <li class="has-sub"><a href="contact.html"><span>Contact Us</span></a>
+                    <li><a href="about.php"><span>About </span></a></li>
+                    <li class="has-sub"><a href="contact.php"><span>Contact Us</span></a>
                     </li>
 
                 </ul>
