@@ -1,4 +1,4 @@
-<section class="padding clearfix fixbug-inline-block">
+<section class="clearfix fixbug-inline-block">
     <div class="container">
         <div class="row">
             <div class="title-block">
@@ -17,12 +17,12 @@
                     <h4 class="text-cap">Creative</h4>
                     <div class="chooseus-canvas-item">
                         <svg class="svg-hexagon">
-                            <polygon class="hexagon" points="285 100,285 250,155 325,25 250,25 100,155 25">
+                            <polygon class="hexagon" points="142 50,142 125,78 162,13 125,13 50,78 13">
                             </polygon>
                         </svg>
                         <!-- End Hexagon -->
                         <svg class="svg-triangle-dotted">
-                            <polygon class="triangle-div" points="2 220,254 220,128 0"></polygon>
+                            <polygon class="triangle-div" points="1 110,127 110,64 0"></polygon>
                         </svg>
                         <!-- End Triangle Dotted -->
                         <div class="triangle-img-warp tri">
@@ -34,17 +34,17 @@
                 <!-- End -->
 
                 <div class="chooseus-item">
-                    <a href="#">
+                    <a>
                         <h4 class="text-cap">Know - How</h4>
                     </a>
                     <div class="chooseus-canvas-item">
                         <svg class="svg-hexagon">
-                            <polygon class="hexagon" points="285 100,285 250,155 325,25 250,25 100,155 25">
+                            <polygon class="hexagon" points="142 50,142 125,78 162,13 125,13 50,78 13">
                             </polygon>
                         </svg>
                         <!-- End Hexagon -->
                         <svg class="svg-triangle-dotted svg-tri-2">
-                            <polygon class="triangle-div" points="2 220,254 220,128 0"></polygon>
+                            <polygon class="triangle-div" points="1 110,127 110,64 0"></polygon>
                         </svg>
                         <!-- End Triangle Dotted -->
                         <div class="triangle-img-warp tri2">
@@ -56,17 +56,17 @@
                 <!-- End -->
 
                 <div class="chooseus-item">
-                    <a href="#">
+                    <a>
                         <h4 class="text-cap">Devoted</h4>
                     </a>
                     <div class="chooseus-canvas-item">
                         <svg class="svg-hexagon">
-                            <polygon class="hexagon" points="285 100,285 250,155 325,25 250,25 100,155 25">
+                            <polygon class="hexagon" points="142 50,142 125,78 162,13 125,13 50,78 13">
                             </polygon>
                         </svg>
                         <!-- End Hexagon -->
                         <svg class="svg-triangle-dotted svg-tri-3">
-                            <polygon class="triangle-div" points="2 220,254 220,128 0"></polygon>
+                            <polygon class="triangle-div" points="1 110,127 110,64 0"></polygon>
                         </svg>
                         <!-- End Triangle Dotted -->
                         <div class="triangle-img-warp tri3">
@@ -78,17 +78,17 @@
                 <!-- End -->
 
                 <div class="chooseus-item">
-                    <a href="#">
+                    <a>
                         <h4 class="text-cap">Caring</h4>
                     </a>
                     <div class="chooseus-canvas-item">
                         <svg class="svg-hexagon">
-                            <polygon class="hexagon" points="285 100,285 250,155 325,25 250,25 100,155 25">
+                            <polygon class="hexagon" points="142 50,142 125,78 162,13 125,13 50,78 13">
                             </polygon>
                         </svg>
                         <!-- End Hexagon -->
                         <svg class="svg-triangle-dotted svg-tri-4">
-                            <polygon class="triangle-div" points="2 220,254 220,128 0"></polygon>
+                            <polygon class="triangle-div" points="1 110,127 110,64 0"></polygon>
                         </svg>
                         <!-- End Triangle Dotted -->
                         <div class="triangle-img-warp tri4">

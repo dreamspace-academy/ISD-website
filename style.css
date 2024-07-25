@@ -5081,11 +5081,11 @@ figure .ot-btn {
 }
 /* Why Choose Us */
 .chooseus-container {
-  width: 880px;
+  width: 100%;
   margin: 0 auto;
 }
 .chooseus-container .chooseus-item {
-  width: 50%;
+  width: 25%;
   float: left;
   display: inline-block;
   margin-bottom: 80px;
@@ -5094,8 +5094,8 @@ figure .ot-btn {
 .chooseus-item {
   position: relative;
   padding: 0;
-  width: 310px;
-  height: 350px;
+  width: 160px;
+  height: 180px;
   text-align: center;
   margin: 0 auto;
 }
@@ -5113,8 +5113,8 @@ figure .ot-btn {
   stroke-dasharray: 4;
 }
 .svg-hexagon {
-  width: 310px;
-  height: 350px;
+  width: 160px;
+  height: 180px;
 }
 .hexagon {
   fill: transparent;
@@ -5123,35 +5123,35 @@ figure .ot-btn {
 }
 .svg-triangle-dotted {
   position: absolute;
-  top: 28px;
-  left: 28px;
+  top: 14px;
+  left: 14px;
 }
 .svg-triangle-container {
-  width: 256px;
+  width: 132px;
   padding: 0;
   position: absolute;
-  top: 28px;
-  left: 28px;
+  top: 14px;
+  left: 14px;
 }
 .svg-triangle-dotted {
-  width: 256px;
-  height: 220px;
+  width: 132px;
+  height: 120px;
 }
 .svg-triangle-dotted.svg-tri-2 {
-  transform: rotate(-30deg) translateY(40px);
-  left: -20px;
+  transform: rotate(-30deg) translateY(20px);
+  left: -10px;
 }
 .svg-triangle-dotted.svg-tri-3 {
-  transform: rotate(-90deg) translateY(40px);
-  left: -30px;
+  transform: rotate(-90deg) translateY(20px);
+  left: -15px;
 }
 .svg-triangle-dotted.svg-tri-4 {
-  transform: rotate(-180deg) translateY(-74px);
-  left: 27px;
+  transform: rotate(-180deg) translateY(-37px);
+  left: 14px;
 }
 .triangle-img-warp {
-  width: 256px;
-  height: 220px;
+  width: 130px;
+  height: 115px;
   overflow: hidden;
   position: absolute;
 }
@@ -5163,51 +5163,51 @@ figure .ot-btn {
   position: absolute;
 }
 .tri {
-  top: 28px;
-  left: 28px;
-  transform: translateY(32px);
+  top: 14px;
+  left: 14px;
+  transform: translateY(18px);
   transition: all 0.8s ease-in-out;
 }
 .tri img {
-  left: -50px;
-  top: -90px;
+  left: -25px;
+  top: -45px;
   transition: all 0.8s ease-in-out;
 }
 .triangle-img-warp {
   clip-path: url('images/Svg/triangle.svg#svgClip');
-  -webkit-clip-path: polygon(0px 220px, 256px 220px, 128px 0px);
+  -webkit-clip-path: polygon(0px 110px, 128px 110px, 64px 0px);
 }
 .tri2 {
   clip-path: url('images/Svg/tri2.svg#tri2');
-  -webkit-clip-path: polygon(0px 256px, 220px 128px, 0px 0px);
+  -webkit-clip-path: polygon(0px 128px, 110px 64px, 0px 0px);
   transition: all 0.8s ease-in-out;
-  left: 95px;
-  top: 40px;
-  width: 220px;
-  height: 256px;
+  left: 45px;
+  top: 20px;
+  width: 110px;
+  height: 128px;
 }
 .tri2 img {
   /*left: -65px;*/
 }
 .tri3 {
   transition: all 0.8s ease-in-out;
-  transform: rotate(-90deg) translateY(40px);
-  left: -48px;
-  top: 60px;
+  transform: rotate(-90deg) translateY(20px);
+  left: -24px;
+  top: 30px;
 }
 .tri3 img {
-  left: -42px;
-  transform: scale(0.9, 0.9) rotate(90deg) translateY(20px);
+  left: -21px;
+  transform: scale(0.9, 0.9) rotate(90deg) translateY(10px);
 }
 .tri4 {
   transition: all 0.8s ease-in-out;
-  transform: rotate(-180deg) translateY(-74px);
-  left: 27px;
-  top: -10px;
+  transform: rotate(-180deg) translateY(-37px);
+  left: 14px;
+  top: -5px;
 }
 .tri4 img {
-  left: -42px;
-  transform: scale(0.8, 0.8) rotate(180deg) translateY(40px) translateX(20px);
+  left: -21px;
+  transform: scale(0.8, 0.8) rotate(180deg) translateY(20px) translateX(20px);
 }
 /* Choose Us Full Width */
 .chooseus-full-width .chooseus-container {
@@ -9956,7 +9956,7 @@ ul.list-link-footer li:hover:before {
 @media only screen and (max-width: 1199px) {
   /* ChooseUs SVG Full Width*/
   .chooseus-full-width .chooseus-container .chooseus-item {
-    width: 50%;
+    width: 25%;
   }
   /* Product Item */
   .product-item {
@@ -10343,7 +10343,7 @@ ul.list-link-footer li:hover:before {
   }
   .chooseus-container .chooseus-item {
     float: none;
-    width: 100%;
+    width: 50%;
   }
   /* Blog Detail Page */
   .blog-detail {
@@ -10759,7 +10759,7 @@ ul.list-link-footer li:hover:before {
   }
   /* Chooseus Full Width Home 2 */
   .chooseus-full-width .chooseus-container .chooseus-item {
-    width: 100%;
+    width: 50%;
   }
   /* Services Fix Position  Home 4 */
   .services-fix {
