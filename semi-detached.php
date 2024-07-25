@@ -1,18 +1,16 @@
 <!-- header -->
 <?php
-$pageTitle = "Semi Detached";
+$pageTitle = "Semi Dedutched";
 $metaTitle = "Ideal Staging and Design";
 $metaDescription = "Transforming properties into stunning, market-ready spaces that captivate potential buyers and drive successful sales.";
 ?>
 <?php include 'components/layout/header.php'; ?>
 <?php include 'components/layout/navbar.php'; ?>
-<!-- sections -->
-
-<section class="padding ">
+<section class="padding">
     <div class="container">
         <div class="row">
             <div class="title-block">
-                <h2 class="title text-cap">Semi Detached</h2>
+                <h2 class="title text-cap">Semi Dedutched</h2>
                 <div class="divider divider-1">
                     <svg class="svg-triangle-icon-container">
                         <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
@@ -20,245 +18,42 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
                 </div>
             </div>
             <!-- End Title -->
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/1.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/2.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/3.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/4.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/5.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/6.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/7.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/8.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/9.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/10.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/11.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/12.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/13.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/14.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/15.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/16.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/17.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/SemiDetached/18.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
 
+            <?php
+            $images = [
+                ["before" => "images/Project/semidetached/1 Before.jpg", "after" => "images/Project/semidetached/1 After.jpg"],
+                ["before" => "images/Project/semidetached/6 Before.jpg", "after" => "images/Project/semidetached/6 After.jpg"],
+                ["before" => "images/Project/semidetached/2 Before.jpg", "after" => "images/Project/semidetached/2 After.jpg"],
+                ["before" => "images/Project/semidetached/5 Before.jpg", "after" => "images/Project/semidetached/5 After.jpg"],
+                ["before" => "images/Project/semidetached/4 Before.jpg", "after" => "images/Project/semidetached/4 After.jpg"],
+                ["before" => "images/Project/semidetached/3 Before.jpg", "after" => "images/Project/semidetached/3 After.jpg"],
+                ["before" => "images/Project/semidetached/7 Before.jpg", "after" => "images/Project/semidetached/7 After.jpg"],
+                ["before" => "images/Project/semidetached/9 Before.jpg", "after" => "images/Project/semidetached/9 After.jpg"],
+                ["before" => "images/Project/semidetached/8 Before.jpg", "after" => "images/Project/semidetached/8 After.jpg"]
+            ];
+
+for ($i = 0; $i < count($images); $i += 2) {
+    echo '<div class="row">';
+    for ($j = $i; $j < $i + 2 && $j < count($images); $j++) {
+        echo '
+                    <div class="col-md-6" style="margin-bottom: 3rem;"> 
+                        <figure class="cd-image-container">
+                            <img src="' . $images[$j]["after"] . '" alt="After">
+                            <span class="cd-image-label" data-type="original"><mark>After</mark></span>
+                            <div class="cd-resize-img">
+                                <img src="' . $images[$j]["before"] . '" alt="Before">
+                                <span class="cd-image-label" data-type="modified"><mark>Before</mark></span>
+                            </div>
+                            <span class="cd-handle"></span> <!-- slider handle -->
+                        </figure>
+                    </div>';
+    }
+    echo '</div>';
+}
+?>
         </div>
     </div>
 </section>
 
-<!-- End Section How This Would Help You -->
 <!-- footer -->
 <?php include 'components/layout/footer.php'; ?>
