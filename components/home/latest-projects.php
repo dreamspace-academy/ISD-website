@@ -34,10 +34,10 @@
 
                 <img src="images/Project/12.jpg" class="img-responsive" alt="Image">
                 <div class="project-info">
-                    <a href="#">
+                    <a href="condo.php">
                         <h4 class="title-project text-cap text-cap">Bedroom</h4>
                     </a>
-                    <a href="#" class="cateProject">Condo</a>
+                    <a href="condo.php" class="cateProject">Condo</a>
                 </div>
             </div>
 
@@ -46,70 +46,70 @@
                 <img src="images/Project/20.jpg" class="img-responsive" alt="Image">
 
                 <div class="project-info">
-                    <a href="#">
+                    <a href="condo.php">
                         <h4 class="title-project text-cap">Dining room</h4>
                     </a>
-                    <a href="#" class="cateProject">Condo</a>
+                    <a href="condo.php" class="cateProject">Condo</a>
                 </div>
             </div>
 
             <div class="element-item Townhouse">
-                <a class="img-contain-isotope" href="#">
+                <a class="img-contain-isotope" href="townhouse.php">
                     <img src="images/Townhouse/10.jpg" class="img-responsive" alt="Image">
                 </a>
                 <div class="project-info">
-                    <a href="#">
+                    <a href="townhouse.php">
                         <h4 class="title-project text-cap">Dining area</h4>
                     </a>
-                    <a href="#" class="cateProject">Townhouse</a>
+                    <a href="townhouse.php" class="cateProject">Townhouse</a>
                 </div>
             </div>
 
             <div class="element-item Townhouse ">
-                <a class="img-contain-isotope" href="#">
+                <a class="img-contain-isotope" href="townhouse.php">
                     <img src="images/Townhouse/2.jpg" class="img-responsive" alt="Image">
                 </a>
                 <div class="project-info">
-                    <a href="#">
+                    <a href="townhouse.php">
                         <h4 class="title-project text-cap">Living Room Decor</h4>
                     </a>
-                    <a href="#" class="cateProject">Townhouse</a>
+                    <a href="townhouse.php" class="cateProject">Townhouse</a>
                 </div>
             </div>
 
             <div class="element-item Bungalow">
-                <a class="img-contain-isotope" href="#">
+                <a class="img-contain-isotope" href="bungalow.php">
                     <img src="images/Bungalow/6.jpg" class="img-responsive" alt="Image">
                 </a>
                 <div class="project-info">
-                    <a href="#">
+                    <a href="bungalow.php">
                         <h4 class="title-project text-cap">Living Room Decor</h4>
                     </a>
-                    <a href="#" class="cateProject">Bungalow</a>
+                    <a href="bungalow.php" class="cateProject">Bungalow</a>
                 </div>
             </div>
 
             <div class="element-item Bungalow">
-                <a class="img-contain-isotope" href="#">
+                <a class="img-contain-isotope" href="bungalow.php">
                     <img src="images/Bungalow/4.jpg" class="img-responsive" alt="Image">
                 </a>
                 <div class="project-info">
-                    <a href="#">
+                    <a href="bungalow.php">
                         <h4 class="title-project text-cap">Dining area</h4>
                     </a>
-                    <a href="#" class="cateProject">Bungalow</a>
+                    <a href="bungalow.php" class="cateProject">Bungalow</a>
                 </div>
             </div>
 
             <div class="element-item Detached ">
-                <a class="img-contain-isotope" href="#">
+                <a class="img-contain-isotope" href="detached.php">
                     <img src="images/Detached/10.jpg" class="img-responsive" alt="Image">
                 </a>
                 <div class="project-info">
-                    <a href="#">
+                    <a href="detached.php">
                         <h4 class="title-project text-cap">Dining area</h4>
                     </a>
-                    <a href="#" class="cateProject">Detached</a>
+                    <a href="detached.php" class="cateProject">Detached</a>
                 </div>
             </div>
 
@@ -117,10 +117,10 @@
 
                 <img src="images/Detached/16.jpg" class="img-responsive" alt="Image">
                 <div class="project-info">
-                    <a href="#">
+                    <a href="detached.php">
                         <h4 class="title-project text-cap">Bedroom</h4>
                     </a>
-                    <a href="#" class="cateProject">Detached</a>
+                    <a href="detached.php" class="cateProject">Detached</a>
                 </div>
             </div>
 
@@ -128,7 +128,7 @@
     </div> <!-- End  -->
     <div class="overlay-arc">
         <div class="layer-1">
-            <a href="projects.php" class="ot-btn btn-dark-color text-cap">View all project</a>
+            <a href="projects.php" class="ot-btn btn-dark-color text-cap">View all projects</a>
         </div>
     </div>
 </section>

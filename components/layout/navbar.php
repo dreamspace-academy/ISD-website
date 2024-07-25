@@ -115,7 +115,7 @@
             </nav><!-- End Nav -->
             <div class="right-header">
                 <ul class="navi-level-1 sub-navi seperator-horizonal-line hover-style-4">
-                    <li class="header-tel"><a class="tel-header" href="#">CONTACT: 416-508-8975</a></li>
+                    <li class="header-tel"><a class="tel-header">CONTACT: 416-508-8975</a></li>
 
 
                     <!-- Testing Search Box -->

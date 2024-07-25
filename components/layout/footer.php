@@ -25,8 +25,8 @@
     <!-- End Nav Footer -->
     <div class="footer-right">
         <ul class="social social-footer">
-            <li class="facebook "><a href="https://www.facebook.com/theresa.emmanuel.796?mibextid=ZbWKwL"
-                    target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li class="facebook "><a href="https://www.facebook.com/theresa.emmanuel.796" target="_blank"><i
+                        class="fa fa-facebook"></i></a></li>
             <li class="instagram"><a href="https://www.instagram.com/idealstaginganddesign"><i class="fa fa-instagram"
                         target="_blank"></i></a></li>
             <li class="linkedin"><a href="https://www.linkedin.com/in/theresa-emmanual-17677324"><i
