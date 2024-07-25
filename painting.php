@@ -1,6 +1,6 @@
 <!-- header -->
 <?php
-$pageTitle = "Decluttering";
+$pageTitle = "Painting";
 $metaTitle = "Ideal Staging and Design";
 $metaDescription = "Transforming properties into stunning, market-ready spaces that captivate potential buyers and drive successful sales.";
 ?>
@@ -11,7 +11,7 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
 <section>
     <div class="sub-header sub-header-1 sub-header-our-services fake-position">
         <div class="sub-header-content">
-            <h2 class="text-cap white-text">Decluttering</h2>
+            <h2 class="text-cap white-text">Painting</h2>
             <ol class="breadcrumb breadcrumb-arc text-cap">
                 <li>
                     <a href="index.php">Home</a>
@@ -19,7 +19,7 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
                 <li>
                     <a href="services.php">Our Services</a>
                 </li>
-                <li class="active">Decluttering</li>
+                <li class="active">Painting</li>
             </ol>
         </div>
     </div>
@@ -30,18 +30,20 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
     <div class="container">
         <div class="row">
             <?php include 'components/services/sidebar.php'; ?>
+
             <div class="main-services main-services-right">
                 <div class="col-md-6">
-                    <p>At Ideal Staging and Design, our decluttering services help transform your home into a clean,
-                        organized, and inviting space. We start with a thorough assessment, identifying areas that need
-                        decluttering to enhance your home's appeal. Our team works efficiently to remove unnecessary
-                        items, organize spaces, and create a clutter-free environment. This process maximizes space,
-                        highlights your home's best features, and makes it more attractive to potential buyers.
+                    <p>Our painting service revitalizes your home with a professional touch and expert color
+                        consultations. We begin by understanding your design preferences and selecting the perfect
+                        colors to complement your space. Our team ensures high-quality finishes and meticulous attention
+                        to detail for a flawless result. We handle all aspects of the painting process, from preparation
+                        to the final coat, to enhance your home’s aesthetic appeal. The result is a polished, welcoming
+                        environment that elevates your property’s overall look and feel.
                     </p>
 
                 </div>
                 <div class="col-md-6">
-                    <img src="images/Services/3.jpg" class="img-responsive" alt="Image">
+                    <img src="images/Services/5.jpg" class="img-responsive" alt="Image">
 
                 </div>
             </div>

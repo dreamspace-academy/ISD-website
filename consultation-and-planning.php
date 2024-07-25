@@ -26,24 +26,16 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
 <section class="padding">
     <div class="container">
         <div class="row">
-            <div class="sidebar-services sidebar-left">
-                <ul class="sidebar-style-2">
-                    <li class="active"><a href="layout-design.php">Consultation and Planning</a></li>
-                    <li><a href="decluttering.php">Layout Design</a></li>
-                    <li><a href="consultation-and-planning.php">Decluttering</a></li>
-                    <!-- <li ><a href="layout-design_4.php">Hospital Design</a></li> -->
-                </ul>
-                <div class="box-question-sidebar text-center">
-                    <p>Have questions about our services?</p>
-                    <a href="contact.php" class="ot-btn btn-main-color text-cap">Contact Us</a>
-                </div>
-            </div>
+            <?php include 'components/services/sidebar.php'; ?>
             <div class="main-services main-services-right">
                 <div class="col-md-6">
-                    <p>Our on-site consultation service at Ideal Staging and Design offers personalized assessments of
-                        properties, collaborating closely with clients to understand their vision and objectives. We
-                        evaluate each space's layout, architectural features, and lighting to provide tailored staging
-                        recommendations that enhance its appeal and marketability. </p>
+                    <p>At Ideal Staging and Design, our onsite consultation is the first step in transforming your
+                        property into a stunning, market-ready space. During the consultation, our expert stager will
+                        assess the current condition and layout of your home, identify strengths and areas for
+                        improvement, and understand your objectives and design preferences. We provide strategic
+                        recommendations on decluttering, cleaning, repairs, and design enhancements to improve
+                        functionality and visual appeal. Following the consultation, you'll receive a detailed summary
+                        with a customized staging plan, including a clear action plan, budget, and timeline. </p>
                 </div>
                 <div class="col-md-6">
                     <img src="images/Services/1.jpg" class="img-responsive" alt="Image">

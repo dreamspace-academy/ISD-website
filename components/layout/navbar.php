@@ -27,9 +27,12 @@
 
                 <li><a href="services.php"><span>Services</span></a>
                     <ul class="navi-level-2">
+                        <li><a href="consultation-and-planning.php">Consultation & Planning</a></li>
                         <li><a href="layout-design.php">Layout Design</a></li>
                         <li><a href="decluttering.php">Decluttering</a></li>
-                        <li><a href="consultation-and-planning.php">Consultation & Planning</a></li>
+                        <li><a href="painting.php">Painting</a></li>
+                        <li><a href="cleaning.php">Cleaning</a></li>
+
                     </ul>
                 </li>
                 <li><a href="about.php"><span>About </span></a></li>
@@ -100,11 +103,14 @@
                             <li><a href="semi-detached.php">Semi Detached</a></li>
                         </ul>
                     </li>
-                    <li class="has-sub"><a href=""><span>Services</span></a>
+                    <li class="has-sub"><a href="services.php"><span>Services</span></a>
                         <ul class="navi-level-2">
+                            <li><a href="consultation-and-planning.php">Consultation & Planning</a></li>
                             <li><a href="layout-design.php">Layout Design</a></li>
                             <li><a href="decluttering.php">Decluttering</a></li>
-                            <li><a href="consultation-and-planning.php">Consultation & Planning</a></li>
+                            <li><a href="painting.php">Painting</a></li>
+                            <li><a href="cleaning.php">Cleaning</a></li>
+
                         </ul>
                     </li>
                     <li><a href="about.php"><span>About </span></a></li>

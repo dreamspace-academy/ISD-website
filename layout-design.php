@@ -29,33 +29,22 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
 <section class="padding">
     <div class="container">
         <div class="row">
-            <div class="sidebar-services sidebar-left">
-                <ul class="sidebar-style-2">
-                    <li><a href="layout-design.php">Consultation and Planning</a></li>
-                    <li class="active"><a href="decluttering.php">Layout Design</a></li>
-                    <li><a href="consultation-and-planning.php">Decluttering</a></li>
-                </ul>
-                <div class="box-question-sidebar text-center">
-                    <p>Have questions about our services?</p>
-                    <a href="contact.php" class="ot-btn btn-main-color text-cap">Contact Us</a>
-                </div>
+            <?php include 'components/services/sidebar.php'; ?>
+        </div>
+        <div class="main-services main-services-right">
+            <div class="col-md-6">
+                <p>our layout design services transform your home into an inviting and functional space. We begin
+                    with a comprehensive assessment, understanding your goals and preferences to craft a customized
+                    layout plan. Our experts focus on optimal furniture arrangement and decor placement to maximize
+                    space and highlight your home's best features. We coordinate every detail, ensuring your home is
+                    visually appealing and ready to impress potential buyers.
+                </p>
             </div>
-            <div class="main-services main-services-right">
-                <div class="col-md-6">
-                    <p>In our Space Planning and Furniture Selection service at Ideal Staging and Design, we
-                        meticulously assess each space's dimensions and architectural elements to create customized
-                        layouts that optimize functionality and aesthetic appeal. Our expert designers curate a
-                        selection of high-quality furniture pieces tailored to the client's style preferences and
-                        practical needs. With a focus on clear communication and collaboration, we ensure that every
-                        aspect of the design reflects the client's vision, resulting in harmonious and inviting living
-                        spaces.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <img src="images/Services/2.jpg" class="img-responsive" alt="Image">
-                </div>
+            <div class="col-md-6">
+                <img src="images/Services/2.jpg" class="img-responsive" alt="Image">
             </div>
         </div>
+    </div>
     </div>
 </section>
 
