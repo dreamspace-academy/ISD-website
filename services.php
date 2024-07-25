@@ -26,60 +26,87 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
         <div class="row">
             <div class="col-md-6">
                 <div class="block-img-full service-item">
-                    <a class="img-block" href="#"><img src="images/ser-1.jpg" class="img-responsive"
-                            alt="Image"></a>
+                    <a class="img-block" href="consultation-and-planning.php"><img src="images/Services/1.jpg"
+                            class="img-responsive" alt="Image"></a>
                     <div class="text-box">
-                        <h4 class="text-cap"><mark>Onsite</mark> Consultation</h4>
+                        <h4 class="text-cap"><mark>Consultation and Planning</mark></h4>
                         <p>
-                            Onsite consultations: Assess property, suggest furniture/decor arrangement,
-                            and advise on repairs/updates for effective staging.
+                            At Ideal Staging and Design, our onsite consultation is the first step in transforming your
+                            property into a stunning, market-ready space. During the consultation, our expert stager
+                            will...
                         </p>
-                        <!-- <a class="text-cap view-more" href="projects/condo.php">View service</a> -->
+                        <a class="text-cap view-more" href="consultation-and-planning.php">View service</a>
                     </div>
 
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="block-img-full service-item">
-                    <a class="img-block" href="#"><img src="images/ser-2.jpg" class="img-responsive"
-                            alt="Image"></a>
+                    <a class="img-block" href="layout-design.php"><img src="images/Services/2.jpg"
+                            class="img-responsive" alt="Image"></a>
                     <div class="text-box">
-                        <h4 class="text-cap"><mark>Home</mark> Staging</h4>
+                        <h4 class="text-cap"><mark>Layout Design</mark></h4>
                         <p>
-                            Specialists in home staging create inviting atmospheres by selecting
-                            furniture and decor to highlight best features.
+                            our layout design services transform your home into an inviting and functional space. We
+                            begin
+                            with a comprehensive assessment, understanding your goals and preferences to craft a
+                            customized...
                         </p>
-                        <!-- <a class="text-cap view-more" href="projects/condo.php">View service</a> -->
+                        <a class="text-cap view-more" href="layout-design.php">View service</a>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div class="col-md-6">
                 <div class="block-img-full service-item">
-                    <a class="img-block" href="#"><img src="images/ser-3.jpg" class="img-responsive"
+                    <a class="img-block" href="decluttering.php"><img src="images/Services/3.jpg" class="img-responsive"
                             alt="Image"></a>
                     <div class="text-box">
-                        <h4 class="text-cap"><mark>Home</mark> Redesign</h4>
+                        <h4 class="text-cap"><mark>Decluttering</mark></h4>
                         <p>
-                            Refresh your living space with our home redesign services. We rearrange
-                            furniture, update decor, and enhance aesthetics.
+                            At Ideal Staging and Design, our decluttering services help transform your home into a
+                            clean,
+                            organized, and inviting space. We start with a thorough assessment, identifying areas that
+                            need...
                         </p>
-                        <!-- <a class="text-cap view-more" href="projects/condo.php">View service</a> -->
+                        <a class="text-cap view-more" href="decluttering.php">View service</a>
                     </div>
 
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="block-img-full service-item">
-                    <a class="img-block" href="#"><img src="images/ser-4.jpg" class="img-responsive"
+                    <a class="img-block" href="painting.php"><img src="images/Services/5.jpg" class="img-responsive"
                             alt="Image"></a>
                     <div class="text-box">
                         <h4 class="text-cap"><mark>
-                                Decluttering</mark> Organizing</h4>
+                                Painting</mark></h4>
                         <p>
-                            Create a spacious, organized environment with our decluttering services. We help homeowners
-                            streamline belongings, making homes feel larger and more inviting.
+                            Our painting service revitalizes your home with a professional touch and expert color
+                            consultations. We begin by understanding your design preferences and selecting the
+                            perfect...
                         </p>
-                        <!-- <a class="text-cap view-more" href="projects/condo.php">View service</a> -->
+                        <a class="text-cap view-more" href="painting.php">View service</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="block-img-full service-item">
+                    <a class="img-block" href="cleaning.php"><img src="images/Services/4.jpg" class="img-responsive"
+                            alt="Image"></a>
+                    <div class="text-box">
+                        <h4 class="text-cap"><mark>
+                                Cleaning</mark></h4>
+                        <p>
+                            Our cleaning service provides a thorough and professional clean to ensure your home is
+                            pristine
+                            and ready for staging. We focus on every detail, from deep-cleaning carpets and floors to...
+                        </p>
+                        <a class="text-cap view-more" href="cleaning.php">View service</a>
                     </div>
 
                 </div>

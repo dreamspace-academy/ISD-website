@@ -6157,6 +6157,7 @@ figure.effect-zoe:hover .latest-blog-post-data p.tags a:nth-child(4) {
 }
 .blog-inline .latest-blog-post-description .view-more {
   margin-top: 18px;
+  font-weight: 600;
 }
 /* Blog Detail */
 .blog-detail {
@@ -7494,6 +7495,7 @@ ol.children {
   display: block;
   -webkit-transition: all 0.6s ease 0s;
   transition: all 0.6s ease 0s;
+  font-weight: 600;
 }
 .view-more:hover {
   color: #ffcb56;
