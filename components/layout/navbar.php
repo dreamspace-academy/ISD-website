@@ -116,7 +116,12 @@
             <div class="right-header">
                 <ul class="navi-level-1 sub-navi seperator-horizonal-line hover-style-4">
                     <li class="header-tel"><a class="tel-header">CONTACT: 416-508-8975</a></li>
-
+                    <li class="facebook header-tel"><a href="https://www.facebook.com/theresa.emmanuel.796"
+                            target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="instagram header-tel"><a href="https://www.instagram.com/idealstaginganddesign"><i
+                                class="fa fa-instagram" target="_blank"></i></a></li>
+                    <li class="linkedin header-tel"><a href="https://www.linkedin.com/in/theresa-emmanual-17677324"><i
+                                class="fa fa-linkedin" target="_blank"></i></a></li>
 
                     <!-- Testing Search Box -->
 
