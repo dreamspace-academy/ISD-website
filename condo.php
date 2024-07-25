@@ -20,264 +20,155 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
             <!-- End Title -->
             <div class="lastest-blog-container">
                 <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/1.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
+                    <figure class="cd-image-container">
+                        <img src="images/Project/condo/1 before.jpg" alt="Before">
+                        <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+
+                        <div class="cd-resize-img">
+                            <!-- the resizable image on top -->
+                            <img src="images/Project/condo/1 after.jpg" alt="After">
+                            <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
                         </div>
-                    </article>
+
+                        <span class="cd-handle"></span> <!-- slider handle -->
+                    </figure>
                 </div>
                 <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/2.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
+                    <figure class="cd-image-container">
+                        <img src="images/Project/condo/2 before.jpg" alt="Before">
+                        <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+
+                        <div class="cd-resize-img">
+                            <!-- the resizable image on top -->
+                            <img src="images/Project/condo/2 after.jpg" alt="After">
+                            <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
                         </div>
-                    </article>
+
+                        <span class="cd-handle"></span> <!-- slider handle -->
+                    </figure>
                 </div>
             </div>
             <div class="lastest-blog-container">
                 <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/3.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
+                    <figure class="cd-image-container">
+                        <img src="images/Project/condo/3 before.jpg" alt="Before">
+                        <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+
+                        <div class="cd-resize-img">
+                            <!-- the resizable image on top -->
+                            <img src="images/Project/condo/3 after.jpg" alt="After">
+                            <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
                         </div>
-                    </article>
+
+                        <span class="cd-handle"></span> <!-- slider handle -->
+                    </figure>
                 </div>
                 <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/4.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
+                    <figure class="cd-image-container">
+                        <img src="images/Project/condo/5 before.jpg" alt="Before">
+                        <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+
+                        <div class="cd-resize-img">
+                            <!-- the resizable image on top -->
+                            <img src="images/Project/condo/5 after.jpg" alt="After">
+                            <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
                         </div>
-                    </article>
+
+                        <span class="cd-handle"></span> <!-- slider handle -->
+                    </figure>
                 </div>
             </div>
             <div class="lastest-blog-container">
                 <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/5.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
+                    <figure class="cd-image-container">
+                        <img src="images/Project/condo/4 before.jpg" alt="Before">
+                        <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+
+                        <div class="cd-resize-img">
+                            <!-- the resizable image on top -->
+                            <img src="images/Project/condo/4 after.jpg" alt="After">
+                            <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
                         </div>
-                    </article>
+
+                        <span class="cd-handle"></span> <!-- slider handle -->
+                    </figure>
                 </div>
                 <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/6.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
+                    <figure class="cd-image-container">
+                        <img src="images/Project/condo/6 before.jpg" alt="Before">
+                        <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+
+                        <div class="cd-resize-img">
+                            <!-- the resizable image on top -->
+                            <img src="images/Project/condo/6 after.jpg" alt="After">
+                            <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
                         </div>
-                    </article>
+
+                        <span class="cd-handle"></span> <!-- slider handle -->
+                    </figure>
                 </div>
             </div>
             <div class="lastest-blog-container">
                 <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/7.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
+                    <figure class="cd-image-container">
+                        <img src="images/Project/condo/10 before.jpg" alt="Before">
+                        <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+
+                        <div class="cd-resize-img">
+                            <!-- the resizable image on top -->
+                            <img src="images/Project/condo/10 after.jpg" alt="After">
+                            <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
                         </div>
-                    </article>
+
+                        <span class="cd-handle"></span> <!-- slider handle -->
+                    </figure>
                 </div>
                 <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/8.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
+                    <figure class="cd-image-container">
+                        <img src="images/Project/condo/7 before.jpg" alt="Before">
+                        <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+
+                        <div class="cd-resize-img">
+                            <!-- the resizable image on top -->
+                            <img src="images/Project/condo/7 after.jpg" alt="After">
+                            <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
                         </div>
-                    </article>
+
+                        <span class="cd-handle"></span> <!-- slider handle -->
+                    </figure>
                 </div>
             </div>
             <div class="lastest-blog-container">
                 <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/9.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
+                    <figure class="cd-image-container">
+                        <img src="images/Project/condo/9 before.jpg" alt="Before">
+                        <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+
+                        <div class="cd-resize-img">
+                            <!-- the resizable image on top -->
+                            <img src="images/Project/condo/9 after.jpg" alt="After">
+                            <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
                         </div>
-                    </article>
+
+                        <span class="cd-handle"></span> <!-- slider handle -->
+                    </figure>
                 </div>
                 <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/10.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
+                    <figure class="cd-image-container">
+                        <img src="images/Project/condo/8 before.jpg" alt="Before">
+                        <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+
+                        <div class="cd-resize-img">
+                            <!-- the resizable image on top -->
+                            <img src="images/Project/condo/8 after.jpg" alt="After">
+                            <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
                         </div>
-                    </article>
+
+                        <span class="cd-handle"></span> <!-- slider handle -->
+                    </figure>
                 </div>
             </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/11.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/12.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/13.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/14.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/15.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/16.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/17.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/18.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/19.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Project/20.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
+
         </div>
     </div>
 </section>

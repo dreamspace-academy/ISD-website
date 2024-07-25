@@ -6,6 +6,7 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
 ?>
 <?php include 'components/layout/header.php'; ?>
 <?php include 'components/layout/navbar.php'; ?>
+
 <!-- sections -->
 <section class="padding bg-grey padding-bottom-0">
     <div class="container">
@@ -31,11 +32,22 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
                         <h4>Semi Detached </h4>
                     </a>
                 </div>
+
                 <!-- End Project Fillter -->
                 <div class="clearfix projectContainer portfolio-grid-1-container">
                     <div class="element-item  Condo">
-                        <a class="portfolio-img-demo" href="condo.php"><img src="images/Project/12.jpg"
-                                class="img-responsive" alt="Image"></a>
+                        <figure class="cd-image-container">
+                            <img src="images/Project/20.jpg" alt="Before">
+                            <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+
+                            <div class="cd-resize-img">
+                                <!-- the resizable image on top -->
+                                <img src="images/Project/12.jpg" alt="After">
+                                <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
+                            </div>
+
+                            <span class="cd-handle"></span> <!-- slider handle -->
+                        </figure>
                         <div class="project-info">
                             <a href="condo.php">
                                 <h4 class="title-project text-cap text-cap">Bedroom</h4>

@@ -88,7 +88,8 @@
 <script src="js/plugins/owl.carousel.js"></script>
 <script src="js/plugins/custom-owl.js"></script>
 
-
+<script src="js/plugins/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
+<script src="js/plugins/main.js"></script> <!-- Resource jQuery -->
 
 <!-- PreLoad
 	    ================================================== -->

@@ -56,6 +56,9 @@
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+
+    <script src="js/plugins/modernizr.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Font -->

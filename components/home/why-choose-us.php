@@ -14,7 +14,7 @@
             <!-- End Title -->
             <div class="chooseus-container text-center">
                 <div class="chooseus-item">
-                    <h4 class="text-cap">Creative</h4>
+                    <h4 class="text-cap">Expertise and Experience</h4>
                     <div class="chooseus-canvas-item">
                         <svg class="svg-hexagon">
                             <polygon class="hexagon" points="142 50,142 125,78 162,13 125,13 50,78 13">
@@ -35,7 +35,7 @@
 
                 <div class="chooseus-item">
                     <a>
-                        <h4 class="text-cap">Know - How</h4>
+                        <h4 class="text-cap">Customized Solution</h4>
                     </a>
                     <div class="chooseus-canvas-item">
                         <svg class="svg-hexagon">
@@ -57,7 +57,7 @@
 
                 <div class="chooseus-item">
                     <a>
-                        <h4 class="text-cap">Devoted</h4>
+                        <h4 class="text-cap">Client-Centric Approach</h4>
                     </a>
                     <div class="chooseus-canvas-item">
                         <svg class="svg-hexagon">
@@ -79,7 +79,7 @@
 
                 <div class="chooseus-item">
                     <a>
-                        <h4 class="text-cap">Caring</h4>
+                        <h4 class="text-cap">Proven Results</h4>
                     </a>
                     <div class="chooseus-canvas-item">
                         <svg class="svg-hexagon">
