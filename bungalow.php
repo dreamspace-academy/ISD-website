@@ -6,8 +6,7 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
 ?>
 <?php include 'components/layout/header.php'; ?>
 <?php include 'components/layout/navbar.php'; ?>
-<!-- sections -->
-<section class="padding ">
+<section class="padding">
     <div class="container">
         <div class="row">
             <div class="title-block">
@@ -19,271 +18,43 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
                 </div>
             </div>
             <!-- End Title -->
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/1.jpg" class="img-responsive" alt="Image">
-                            </a>
+
+            <?php
+            $images = [
+                ["before" => "images/Project/bungalow/1 Before.jpg", "after" => "images/Project/bungalow/1 After.jpg"],
+                ["before" => "images/Project/bungalow/2 Before.jpg", "after" => "images/Project/bungalow/2 After.jpg"],
+                ["before" => "images/Project/bungalow/5 Before.jpg", "after" => "images/Project/bungalow/5 After.jpg"],
+                ["before" => "images/Project/bungalow/4 Before.jpg", "after" => "images/Project/bungalow/4 After.jpg"],
+                ["before" => "images/Project/bungalow/3 Before.jpg", "after" => "images/Project/bungalow/3 After.jpg"],
+                ["before" => "images/Project/bungalow/10 Before.jpg", "after" => "images/Project/bungalow/10 After.jpg"],
+                ["before" => "images/Project/bungalow/6 Before.jpg", "after" => "images/Project/bungalow/6 After.jpg"],
+                ["before" => "images/Project/bungalow/7 Before.jpg", "after" => "images/Project/bungalow/7 After.jpg"],
+                ["before" => "images/Project/bungalow/9 Before.jpg", "after" => "images/Project/bungalow/9 After.jpg"],
+                ["before" => "images/Project/bungalow/8 Before.jpg", "after" => "images/Project/bungalow/8 After.jpg"]
+            ];
+
+for ($i = 0; $i < count($images); $i += 2) {
+    echo '<div class="row">';
+    for ($j = $i; $j < $i + 2 && $j < count($images); $j++) {
+        echo '
+                    <div class="col-md-6" style="margin-bottom: 3rem;"> 
+                        <figure class="cd-image-container">
+                            <img src="' . $images[$j]["after"] . '" alt="After">
+                            <span class="cd-image-label" data-type="original"><mark>After</mark></span>
+                            <div class="cd-resize-img">
+                                <img src="' . $images[$j]["before"] . '" alt="Before">
+                                <span class="cd-image-label" data-type="modified"><mark>Before</mark></span>
+                            </div>
+                            <span class="cd-handle"></span> <!-- slider handle -->
                         </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/2.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/3.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/4.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/5.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/6.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/7.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/8.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/9.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/10.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/11.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/12.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/13.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/14.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/15.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/16.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/17.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/18.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="lastest-blog-container">
-                <div class="col-md-6">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/19.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>Before</mark></h4>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6  ">
-                    <article class="lastest-blog-item">
-                        <figure class="latest-blog-post-img effect-zoe">
-                            <a href="#">
-                                <img src="images/Bungalow/20.jpg" class="img-responsive" alt="Image">
-                            </a>
-                        </figure>
-                        <div class="latest-blog-post-description">
-                            <h4 class="text-cap"><mark>After</mark></h4>
-                        </div>
-                    </article>
-                </div>
-            </div>
+                    </div>';
+    }
+    echo '</div>';
+}
+?>
         </div>
     </div>
 </section>
-
-<!-- End Section How This Would Help You -->
 
 <!-- footer -->
 <?php include 'components/layout/footer.php'; ?>
