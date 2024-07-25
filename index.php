@@ -11,6 +11,7 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
 <?php include 'components/home/services.php'; ?>
 <?php include 'components/home/sub-services.php'; ?>
 <?php include 'components/home/why-choose-us.php'; ?>
+<?php include 'components/about/info.php'; ?>
 <?php include 'components/home/latest-projects.php'; ?>
 <!-- footer -->
 <?php include 'components/layout/footer.php'; ?>

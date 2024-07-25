@@ -1,4 +1,4 @@
-<section class="padding bg-grey padding-bottom-0">
+<section class=" padding-bottom-0">
     <div class="title-block">
         <h2 class="title text-cap">Lastest Projects</h2>
         <div class="divider divider-1">

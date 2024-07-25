@@ -1,4 +1,4 @@
-<section class="padding padding-bottom-0">
+<section class=" padding-bottom-0">
     <div class="container">
         <div class="row">
             <h2 class="title text-cap">Meet Theresa Emmanuel </h2>
