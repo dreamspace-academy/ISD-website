@@ -22,11 +22,11 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
             <?php
             $images = [
                 ["before" => "images/Project/condo/1 before.jpg", "after" => "images/Project/condo/1 after.jpg"],
-                ["before" => "images/Project/condo/2 before.jpg", "after" => "images/Project/condo/2 after.jpg"],
+                ["before" => "images/Project/condo/6 before.jpg", "after" => "images/Project/condo/6 after.jpg"],
                 ["before" => "images/Project/condo/3 before.jpg", "after" => "images/Project/condo/3 after.jpg"],
                 ["before" => "images/Project/condo/5 before.jpg", "after" => "images/Project/condo/5 after.jpg"],
+                ["before" => "images/Project/condo/2 before.jpg", "after" => "images/Project/condo/2 after.jpg"],
                 ["before" => "images/Project/condo/4 before.jpg", "after" => "images/Project/condo/4 after.jpg"],
-                ["before" => "images/Project/condo/6 before.jpg", "after" => "images/Project/condo/6 after.jpg"],
                 ["before" => "images/Project/condo/10 before.jpg", "after" => "images/Project/condo/10 after.jpg"],
                 ["before" => "images/Project/condo/7 before.jpg", "after" => "images/Project/condo/7 after.jpg"],
                 ["before" => "images/Project/condo/9 before.jpg", "after" => "images/Project/condo/9 after.jpg"],
@@ -55,6 +55,8 @@ for ($i = 0; $i < count($images); $i += 2) {
         </div>
     </div>
 </section>
+
+
 
 <!-- footer -->
 <?php include 'components/layout/footer.php'; ?>

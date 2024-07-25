@@ -56,5 +56,6 @@ for ($i = 0; $i < count($images); $i += 2) {
     </div>
 </section>
 
+
 <!-- footer -->
 <?php include 'components/layout/footer.php'; ?>

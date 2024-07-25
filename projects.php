@@ -7,177 +7,240 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
 <?php include 'components/layout/header.php'; ?>
 <?php include 'components/layout/navbar.php'; ?>
 
-<!-- sections -->
-<section class="padding bg-grey padding-bottom-0">
+<section>
     <div class="container">
         <div class="row">
-            <div class="lastest-project-warp portfolio-grid-1-warp clearfix">
-                <div class="projectFilter project-terms line-effect-2">
-                    <a href="#" data-filter="*" class="current text-cap">
-                        <h4>All Projects</h4>
-                    </a>
-                    <a href="#" data-filter=".Condo" class="text-cap">
-                        <h4>Condo </h4>
-                    </a>
-                    <a href="#" data-filter=".Townhouse" class="text-cap">
-                        <h4>Townhouse </h4>
-                    </a>
-                    <a href="#" data-filter=".Bungalow" class="text-cap">
-                        <h4>Bungalow </h4>
-                    </a>
-                    <a href="#" data-filter=".Detached" class="text-cap">
-                        <h4>Detached </h4>
-                    </a>
-                    <a href="#" data-filter=".SemiDetached" class="text-cap">
-                        <h4>Semi Detached </h4>
-                    </a>
+            <div class="title-block">
+                <h2 class="title text-cap">Condo</h2>
+                <div class="divider divider-1">
+                    <svg class="svg-triangle-icon-container">
+                        <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                    </svg>
                 </div>
+            </div>
+            <!-- End Title -->
 
-                <!-- End Project Fillter -->
-                <div class="clearfix projectContainer portfolio-grid-1-container">
-                    <div class="element-item  Condo">
+            <?php
+            $condoImages = [
+                ["before" => "images/Project/condo/1 before.jpg", "after" => "images/Project/condo/1 after.jpg"],
+                ["before" => "images/Project/condo/6 before.jpg", "after" => "images/Project/condo/6 after.jpg"],
+                ["before" => "images/Project/condo/3 before.jpg", "after" => "images/Project/condo/3 after.jpg"],
+                ["before" => "images/Project/condo/5 before.jpg", "after" => "images/Project/condo/5 after.jpg"],
+            ];
+
+for ($i = 0; $i < count($condoImages); $i += 2) {
+    echo '<div class="row">';
+    for ($j = $i; $j < $i + 2 && $j < count($condoImages); $j++) {
+        echo '
+                    <div class="col-md-6" style="margin-bottom: 3rem;"> 
                         <figure class="cd-image-container">
-                            <img src="images/Project/20.jpg" alt="Before">
-                            <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
-
+                            <img src="' . $condoImages[$j]["after"] . '" alt="After">
+                            <span class="cd-image-label" data-type="original"><mark>After</mark></span>
                             <div class="cd-resize-img">
-                                <!-- the resizable image on top -->
-                                <img src="images/Project/12.jpg" alt="After">
-                                <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
+                                <img src="' . $condoImages[$j]["before"] . '" alt="Before">
+                                <span class="cd-image-label" data-type="modified"><mark>Before</mark></span>
                             </div>
-
                             <span class="cd-handle"></span> <!-- slider handle -->
                         </figure>
-                        <div class="project-info">
-                            <a href="condo.php">
-                                <h4 class="title-project text-cap text-cap">Bedroom</h4>
-                            </a>
-                            <a href="condo.php" class="cateProject">Condo</a>
-                        </div>
-                    </div>
-                    <div class="element-item Condo ">
-                        <a class="portfolio-img-demo" href="condo.php"><img src="images/Project/20.jpg"
-                                class="img-responsive" alt="Image"></a>
-                        <div class="project-info">
-                            <a href="condo.php">
-                                <h4 class="title-project text-cap">dining room</h4>
-                            </a>
-                            <a href="condo.php" class="cateProject">Condo</a>
-                        </div>
-                    </div>
-                    <div class="element-item Townhouse">
-                        <a class="portfolio-img-demo" href="townhouse.php"><img src="images/Townhouse/10.jpg"
-                                class="img-responsive" alt="Image"></a>
-                        <div class="project-info">
-                            <a href="townhouse.php">
-                                <h4 class="title-project text-cap">Dining area</h4>
-                            </a>
-                            <a href="townhouse.php" class="cateProject">Townhouse</a>
-                        </div>
-                    </div>
-                    <div class="element-item Townhouse ">
-                        <a class="portfolio-img-demo" href="townhouse.php"><img src="images/Townhouse/2.jpg"
-                                class="img-responsive" alt="Image"></a>
-                        <div class="project-info">
-                            <a href="townhouse.php">
-                                <h4 class="title-project text-cap">Living Room Decor</h4>
-                            </a>
-                            <a href="townhouse.php" class="cateProject">Townhouse</a>
-                        </div>
-                    </div>
-                    <div class="element-item Bungalow">
-                        <a class="portfolio-img-demo" href="bungalow.php"><img src="images/Bungalow/6.jpg"
-                                class="img-responsive" alt="Image"></a>
-                        <div class="project-info">
-                            <a href="bungalow.php">
-                                <h4 class="title-project text-cap">Living Room Decor</h4>
-                            </a>
-                            <a href="bungalow.php" class="cateProject">Bungalow</a>
-                        </div>
-                    </div>
-                    <div class="element-item Bungalow">
-                        <a class="portfolio-img-demo" href="bungalow.php"><img src="images/Bungalow/4.jpg"
-                                class="img-responsive" alt="Image"></a>
-                        <div class="project-info">
-                            <a href="bungalow.php">
-                                <h4 class="title-project text-cap">Dining area</h4>
-                            </a>
-                            <a href="bungalow.php" class="cateProject">Bungalow</a>
-                        </div>
-                    </div>
-                    <div class="element-item Detached ">
-                        <a class="portfolio-img-demo" href="detached.php"><img src="images/Detached/10.jpg"
-                                class="img-responsive" alt="Image"></a>
-                        <div class="project-info">
-                            <a href="detached.php">
-                                <h4 class="title-project text-cap">Dining area</h4>
-                            </a>
-                            <a href="detached.php" class="cateProject">Detached</a>
-                        </div>
-                    </div>
-                    <div class="element-item Detached">
-                        <a class="portfolio-img-demo" href="detached.php"><img src="images/Detached/16.jpg"
-                                class="img-responsive" alt="Image"></a>
-                        <div class="project-info">
-                            <a href="detached.php">
-                                <h4 class="title-project text-cap">Bedroom</h4>
-                            </a>
-                            <a href="detached.php" class="cateProject">Detached</a>
-                        </div>
-                    </div>
-                    <div class="element-item  Condo">
-                        <a class="portfolio-img-demo" href="condo.php"><img src="images/Project/4.jpg"
-                                class="img-responsive" alt="Image"></a>
-                        <div class="project-info">
-                            <a href="condo.php">
-                                <h4 class="title-project text-cap text-cap">Dining area</h4>
-                            </a>
-                            <a href="condo.php" class="cateProject">Condo</a>
-                        </div>
-                    </div>
-                    <div class="element-item Condo ">
-                        <a class="portfolio-img-demo" href="condo.php"><img src="images/Project/2.jpg"
-                                class="img-responsive" alt="Image"></a>
-                        <div class="project-info">
-                            <a href="condo.php">
-                                <h4 class="title-project text-cap">Living Room Decor</h4>
-                            </a>
-                            <a href="condo.php" class="cateProject">Condo</a>
-                        </div>
-                    </div>
-                    <div class="element-item  SemiDetached">
-                        <a class="portfolio-img-demo" href="semi-detached.php"><img src="images/SemiDetached/4.jpg"
-                                class="img-responsive" alt="Image"></a>
-                        <div class="project-info">
-                            <a href="semi-detached.php">
-                                <h4 class="title-project text-cap text-cap">Living Room Decor</h4>
-                            </a>
-                            <a href="semi-detached.php" class="cateProject">Semi Detached</a>
-                        </div>
-                    </div>
-                    <div class="element-item SemiDetached ">
-                        <a class="portfolio-img-demo" href="semi-detached.php"><img src="images/SemiDetached/6.jpg"
-                                class="img-responsive" alt="Image"></a>
-                        <div class="project-info">
-                            <a href="semi-detached.php">
-                                <h4 class="title-project text-cap">Bedroom</h4>
-                            </a>
-                            <a href="semi-detached.php" class="cateProject">Semi Detached</a>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- End project Container -->
-            </div>
-            <!-- End  -->
+                    </div>';
+    }
+    echo '</div>';
+}
+?>
         </div>
-        <!-- End Row -->
     </div>
-    <!-- End Container -->
-    <div class="overlay-arc">
-        <div class="layer-1">
-            <a href="contact.php" class="ot-btn btn-border btn-border-dark btn-long text-cap">Get a Quote</a>
+    <div class="container" style="display: flex; justify-content: flex-end;">
+        <a href="condo.php" class="ot-btn btn-main-color text-cap">View More</a>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="title-block">
+                <h2 class="title text-cap">Town House</h2>
+                <div class="divider divider-1">
+                    <svg class="svg-triangle-icon-container">
+                        <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                    </svg>
+                </div>
+            </div>
+            <!-- End Title -->
+
+            <?php
+            $images = [
+                ["before" => "images/Project/townhouse/1 before.jpg", "after" => "images/Project/townhouse/1 after.jpg"],
+                ["before" => "images/Project/townhouse/6 before.jpg", "after" => "images/Project/townhouse/6 after.jpg"],
+                ["before" => "images/Project/townhouse/3 before.jpg", "after" => "images/Project/townhouse/3 after.jpg"],
+                ["before" => "images/Project/townhouse/5 before.jpg", "after" => "images/Project/townhouse/5 after.jpg"],
+            ];
+
+for ($i = 0; $i < count($images); $i += 2) {
+    echo '<div class="row">';
+    for ($j = $i; $j < $i + 2 && $j < count($images); $j++) {
+        echo '
+                    <div class="col-md-6" style="margin-bottom: 3rem;">
+                        <figure class="cd-image-container">
+                            <img src="' . $images[$j]["before"] . '" alt="Before">
+                            <span class="cd-image-label" data-type="original"><mark>Before</mark></span>
+                            <div class="cd-resize-img">
+                                <img src="' . $images[$j]["after"] . '" alt="After">
+                                <span class="cd-image-label" data-type="modified"><mark>After</mark></span>
+                            </div>
+                            <span class="cd-handle"></span> <!-- slider handle -->
+                        </figure>
+                    </div>';
+    }
+    echo '</div>';
+}
+?>
         </div>
+    </div>
+    <div class="container" style="display: flex; justify-content: flex-end;">
+        <a href="townhouse.php" class="ot-btn btn-main-color text-cap">View More</a>
+    </div>
+</section>
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="title-block">
+                <h2 class="title text-cap">Bungalow</h2>
+                <div class="divider divider-1">
+                    <svg class="svg-triangle-icon-container">
+                        <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                    </svg>
+                </div>
+            </div>
+            <!-- End Title -->
+
+            <?php
+            $images = [
+                ["before" => "images/Project/bungalow/1 Before.jpg", "after" => "images/Project/bungalow/1 After.jpg"],
+                ["before" => "images/Project/bungalow/2 Before.jpg", "after" => "images/Project/bungalow/2 After.jpg"],
+                ["before" => "images/Project/bungalow/5 Before.jpg", "after" => "images/Project/bungalow/5 After.jpg"],
+                ["before" => "images/Project/bungalow/4 Before.jpg", "after" => "images/Project/bungalow/4 After.jpg"],
+            ];
+
+for ($i = 0; $i < count($images); $i += 2) {
+    echo '<div class="row">';
+    for ($j = $i; $j < $i + 2 && $j < count($images); $j++) {
+        echo '
+                    <div class="col-md-6" style="margin-bottom: 3rem;"> 
+                        <figure class="cd-image-container">
+                            <img src="' . $images[$j]["after"] . '" alt="After">
+                            <span class="cd-image-label" data-type="original"><mark>After</mark></span>
+                            <div class="cd-resize-img">
+                                <img src="' . $images[$j]["before"] . '" alt="Before">
+                                <span class="cd-image-label" data-type="modified"><mark>Before</mark></span>
+                            </div>
+                            <span class="cd-handle"></span> <!-- slider handle -->
+                        </figure>
+                    </div>';
+    }
+    echo '</div>';
+}
+?>
+        </div>
+    </div>
+    <div class="container" style="display: flex; justify-content: flex-end;">
+        <a href="bungalow.php" class="ot-btn btn-main-color text-cap">View More</a>
+    </div>
+</section>
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="title-block">
+                <h2 class="title text-cap">Detached</h2>
+                <div class="divider divider-1">
+                    <svg class="svg-triangle-icon-container">
+                        <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                    </svg>
+                </div>
+            </div>
+            <!-- End Title -->
+
+            <?php
+            $images = [
+                ["before" => "images/Project/detached/1 before.jpg", "after" => "images/Project/detached/1 after.jpg"],
+                ["before" => "images/Project/detached/2 before.jpg", "after" => "images/Project/detached/2 after.jpg"],
+                ["before" => "images/Project/detached/5 before.jpg", "after" => "images/Project/detached/5 after.jpg"],
+                ["before" => "images/Project/detached/4 before.jpg", "after" => "images/Project/detached/4 after.jpg"],
+            ];
+
+for ($i = 0; $i < count($images); $i += 2) {
+    echo '<div class="row">';
+    for ($j = $i; $j < $i + 2 && $j < count($images); $j++) {
+        echo '
+                    <div class="col-md-6" style="margin-bottom: 3rem;"> 
+                        <figure class="cd-image-container">
+                            <img src="' . $images[$j]["after"] . '" alt="After">
+                            <span class="cd-image-label" data-type="original"><mark>After</mark></span>
+                            <div class="cd-resize-img">
+                                <img src="' . $images[$j]["before"] . '" alt="Before">
+                                <span class="cd-image-label" data-type="modified"><mark>Before</mark></span>
+                            </div>
+                            <span class="cd-handle"></span> <!-- slider handle -->
+                        </figure>
+                    </div>';
+    }
+    echo '</div>';
+}
+?>
+        </div>
+    </div>
+    <div class="container" style="display: flex; justify-content: flex-end;">
+        <a href="detached.php" class="ot-btn btn-main-color text-cap">View More</a>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="title-block">
+                <h2 class="title text-cap">Semi Dedutched</h2>
+                <div class="divider divider-1">
+                    <svg class="svg-triangle-icon-container">
+                        <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                    </svg>
+                </div>
+            </div>
+            <!-- End Title -->
+
+            <?php
+            $images = [
+                ["before" => "images/Project/semidetached/1 Before.jpg", "after" => "images/Project/semidetached/1 After.jpg"],
+                ["before" => "images/Project/semidetached/6 Before.jpg", "after" => "images/Project/semidetached/6 After.jpg"],
+                ["before" => "images/Project/semidetached/2 Before.jpg", "after" => "images/Project/semidetached/2 After.jpg"],
+                ["before" => "images/Project/semidetached/5 Before.jpg", "after" => "images/Project/semidetached/5 After.jpg"],
+            ];
+
+for ($i = 0; $i < count($images); $i += 2) {
+    echo '<div class="row">';
+    for ($j = $i; $j < $i + 2 && $j < count($images); $j++) {
+        echo '
+                    <div class="col-md-6" style="margin-bottom: 3rem;"> 
+                        <figure class="cd-image-container">
+                            <img src="' . $images[$j]["after"] . '" alt="After">
+                            <span class="cd-image-label" data-type="original"><mark>After</mark></span>
+                            <div class="cd-resize-img">
+                                <img src="' . $images[$j]["before"] . '" alt="Before">
+                                <span class="cd-image-label" data-type="modified"><mark>Before</mark></span>
+                            </div>
+                            <span class="cd-handle"></span> <!-- slider handle -->
+                        </figure>
+                    </div>';
+    }
+    echo '</div>';
+}
+?>
+        </div>
+    </div>
+    <div class="container" style="display: flex; justify-content: flex-end;">
+        <a href="semi-detached.php" class="ot-btn btn-main-color text-cap">View More</a>
     </div>
 </section>
 <!-- End Section Isotop Lastest Project -->
