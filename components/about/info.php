@@ -48,13 +48,13 @@
                                 <div id="FasterSales" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <div class="accordion-content">
-                                            <p>Creating a positive first impression is crucial when selling your home,
-                                                and staging plays a key role in achieving this. A staged home looks more
-                                                appealing and inviting, both in photos and in person, allowing buyers to
-                                                envision living in the space. It highlights your home’s best features,
-                                                creating an emotional connection and making the property more memorable.
-                                                In a crowded market, staging gives your home a competitive edge,
-                                                increasing the chances of a successful sale. </p>
+                                            <p>Staging your home can significantly speed up the selling process. A
+                                                well-staged home creates a positive first impression, attracting more
+                                                potential buyers and encouraging quicker decision-making. By showcasing
+                                                your home’s best features and presenting it in an inviting,
+                                                move-in-ready condition, staging helps buyers envision themselves living
+                                                there. This often leads to more interest and offers, reducing the time
+                                                your home spends on the market. </p>
                                         </div>
                                     </div>
                                 </div>
