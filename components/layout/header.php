@@ -84,3 +84,5 @@
 </head>
 
 <body>
+
+    <?php include 'spinner.php'; ?>

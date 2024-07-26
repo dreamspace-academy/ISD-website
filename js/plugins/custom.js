@@ -1,5 +1,16 @@
 $(document).ready(function () {
   'use strict';
+
+  // Spinner
+  var spinner = function () {
+    setTimeout(function () {
+      if ($('#spinner').length > 0) {
+        $('#spinner').removeClass('show');
+      }
+    }, 1);
+  };
+  spinner();
+
   // <!-- Intializing Navigation Effect-->
   $('ul.navi-level-1 li').on('mouseenter', function () {
     $(this)
