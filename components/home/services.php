@@ -45,7 +45,7 @@
                                 <h4 class="text-cap"><mark>Decluttering</mark></h4>
                             </a>
                             <p>
-                                ; Create a spacious, organized environment with our decluttering services. We help
+                                Create a spacious, organized environment with our decluttering services. We help
                                 homeowners streamline belongings, making homes feel larger and more inviting.
                             </p>
                             <a class="text-cap view-more" href="decluttering.php">View service</a>

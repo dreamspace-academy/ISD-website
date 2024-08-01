@@ -38,7 +38,7 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
                         sanitizing surfaces and fixtures. Our team meticulously handles all cleaning tasks to create a
                         fresh, inviting environment that highlights your home’s best features. We use high-quality
                         products and techniques to achieve a spotless finish. The result is a beautifully clean space
-                        that enhances your home’s appeal and prepares it for potential buyers
+                        that enhances your home’s appeal and prepares it for potential buyers.
                     </p>
 
                 </div>
@@ -50,5 +50,9 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
         </div>
     </div>
 </section>
+<div class="box-question-sidebar text-center">
+    <p>Have questions about our services?</p>
+    <a href="contact.php" class="ot-btn btn-main-color text-cap">Contact Us</a>
+</div>
 <!-- footer -->
 <?php include 'components/layout/footer.php'; ?>

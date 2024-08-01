@@ -30,23 +30,26 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
     <div class="container">
         <div class="row">
             <?php include 'components/services/sidebar.php'; ?>
-        </div>
-        <div class="main-services main-services-right">
-            <div class="col-md-6">
-                <p>our layout design services transform your home into an inviting and functional space. We begin
-                    with a comprehensive assessment, understanding your goals and preferences to craft a customized
-                    layout plan. Our experts focus on optimal furniture arrangement and decor placement to maximize
-                    space and highlight your home's best features. We coordinate every detail, ensuring your home is
-                    visually appealing and ready to impress potential buyers.
-                </p>
+
+            <div class="main-services main-services-right">
+                <div class="col-md-6">
+                    <p>Our layout design services transform your home into an inviting and functional space. We begin
+                        with a comprehensive assessment, understanding your goals and preferences to craft a customized
+                        layout plan. Our experts focus on optimal furniture arrangement and decor placement to maximize
+                        space and highlight your home's best features. We coordinate every detail, ensuring your home is
+                        visually appealing and ready to impress potential buyers.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/Services/2.jpg" class="img-responsive" alt="Image">
+                </div>
             </div>
-            <div class="col-md-6">
-                <img src="images/Services/2.jpg" class="img-responsive" alt="Image">
-            </div>
         </div>
-    </div>
     </div>
 </section>
-
+<div class="box-question-sidebar text-center">
+    <p>Have questions about our services?</p>
+    <a href="contact.php" class="ot-btn btn-main-color text-cap">Contact Us</a>
+</div>
 <!-- footer -->
 <?php include 'components/layout/footer.php'; ?>

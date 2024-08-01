@@ -16,8 +16,5 @@
             echo ' active';
         } ?>"><a href="cleaning.php">Cleaning</a></li>
     </ul>
-    <div class="box-question-sidebar text-center">
-        <p>Have questions about our services?</p>
-        <a href="contact.php" class="ot-btn btn-main-color text-cap">Contact Us</a>
-    </div>
+
 </div>

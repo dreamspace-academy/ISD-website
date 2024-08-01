@@ -6,7 +6,24 @@ include 'components/layout/header.php';
 include 'components/layout/navbar.php';
 ?>
 
-<section class="padding">
+<section>
+    <div class="sub-header sub-header-1 sub-header-our-services fake-position">
+        <div class="sub-header-content">
+            <h2 class="text-cap white-text">Town House</h2>
+            <ol class="breadcrumb breadcrumb-arc text-cap">
+                <li>
+                    <a href="index.php">Home</a>
+                </li>
+                <li>
+                    <a href="projects.php">Our Projects</a>
+                </li>
+                <li class="active">Town House</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section>
     <div class="container">
         <div class="row">
             <div class="title-block">

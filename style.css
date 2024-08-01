@@ -4090,6 +4090,7 @@ span.mini-cart-counter {
   display: block;
   position: relative;
   padding: 0 5px;
+  font-weight: 600;
 }
 .navi-level-1.hover-style-3 li a span:before {
   display: block;

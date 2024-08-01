@@ -78,6 +78,9 @@
   		================================================== -->
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
 
+    <!-- Spinner -->
+    <link rel="preload" href="css/spinner.css" />
+
     <!-- Main Style -->
     <link rel="stylesheet" href="style.css">
 

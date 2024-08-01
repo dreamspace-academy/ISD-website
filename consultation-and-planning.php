@@ -46,6 +46,9 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
     </div>
 </section>
 <!-- End Section How This Would Help You -->
-
+<div class="box-question-sidebar text-center">
+    <p>Have questions about our services?</p>
+    <a href="contact.php" class="ot-btn btn-main-color text-cap">Contact Us</a>
+</div>
 <!-- footer -->
 <?php include 'components/layout/footer.php'; ?>

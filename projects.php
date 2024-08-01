@@ -8,6 +8,22 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
 <?php include 'components/layout/navbar.php'; ?>
 
 <section>
+    <div class="sub-header sub-header-1 sub-header-our-services fake-position">
+        <div class="sub-header-content">
+            <h2 class="text-cap white-text">Projects</h2>
+            <ol class="breadcrumb breadcrumb-arc text-cap">
+                <li>
+                    <a href="index.php">Home</a>
+                </li>
+                <li class="active">
+                    Our Projects
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section>
     <div class="container">
         <div class="row">
             <div class="title-block">

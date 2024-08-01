@@ -85,12 +85,12 @@
             </div>
             <div class="left-header">
                 <ul class="navi-level-1">
-                    <li><a href="index.php" class="logo"><img src="./images/Header/isd-logo.png" class="img-responsive"
-                                alt="Image"></a></li>
+                    <li><a href="index.php"><img src="./images/Header/isd-logo.png"
+                                style="width: 12rem; margin-right:5rem;" alt="Image"></a></li>
                 </ul>
             </div><!-- End Left Header -->
             <nav>
-                <ul class="navi-level-1 hover-style-2 main-navi">
+                <ul class="navi-level-1 hover-style-3 main-navi" style="margin-left:4rem;">
                     <li class="has-sub"><a href="index.php"><span>Home</span></a>
 
                     </li>

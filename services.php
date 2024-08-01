@@ -12,7 +12,7 @@ $metaDescription = "Transforming properties into stunning, market-ready spaces t
             <h2 class="text-cap white-text">Service</h2>
             <ol class="breadcrumb breadcrumb-arc text-cap">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="index.php">Home</a>
                 </li>
                 <li class="active">Our Services</li>
             </ol>
